@@ -1,0 +1,77 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a + b = c
+
+num1 + num2 = sum
+print sum
+
+ask for 2 numbers 
+add the 2 number together 
+print on the screen the sum of those 2 numbers
+
+(
+// Exercise 1: Calculate the Sum of Two Numbers 
+
+// Step 1: Ask for two numbers 
+Input num1 
+Input num2 
+
+// Step 2: Add the two numbers together sum = num1 + num2 
+
+// Step 3: Print the sum on the screen Print "The sum of", num1, "and", num2, "is", sum
+)
+
+// Exercise 2: Check if a Number is Even or Odd
+
+(
+// Exercise 2: Check if a Number is Even or Odd 
+// Step 1: Ask for a number Input number // Step 2: Check if the numberis even or odd If number % 2 == 0 Then Print number, "is even" Else Print number, "is odd" End If
+)
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+(
+// Exercise 3: Perform Various Calculations on Five Numbers 
+
+// Step a: Read in 5 separate numbers 
+Input number1 
+Inputnumber2 
+Input number3 
+Input number4 
+Input number5 
+
+// Step b: Calculate the average of the five numbers average =(number1 + number2 + number3 + number4 + number5) / 5 // 
+
+Step c: Find the smallest (minimum) and largest(maximum) of the five entered numbers 
+smallest = number1 
+largest = number1 
+If number2 < smallest Then smallest =number2 
+End If 
+If number3 < smallest Then smallest = number3 
+End If 
+If number4 < smallest Then smallest = number4
+End If 
+If number5 < smallest Then smallest = number5 
+End If 
+If number2 > largest Then largest = number2 
+End If 
+Ifnumber3 > largest Then largest = number3 
+End If 
+If number4 > largest Then largest = number4 
+End If 
+If number5 >largest Then largest = number5 
+End If 
+
+// Step d: Write out the results 
+Print "The average of the five numbers is:", average
+Print "The smallest number is:", smallest 
+Print "The largest number is:", largest
+)
+
+-- END --
